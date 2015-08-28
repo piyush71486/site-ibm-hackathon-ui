@@ -1,0 +1,42 @@
+var json = { 
+	"website_name":"ABC",
+	"category": [
+	  	{ "cat_name": "cat_name",
+	      "items": [
+	        {
+	          "sku": "dfej1230000",
+	          "item_name": "abc",
+	          "price": "13000",
+	          "color": "black",
+	          "description": "4 leg dining table"
+	        },
+	        {
+	          "sku": "sacfads1249",
+	          "item_name": "abc",
+	          "price": "15000",
+	          "color": "white",
+	          "description": "6 leg dining tale"
+	        }
+	      ]
+	    },
+	    {
+	      "cat_name": "cat_name",
+	      "items": [
+	        {
+	          "sku": "dfej1230000",
+	          "item_name": "abc",
+	          "price": "13000",
+	          "color": "black",
+	          "description": "4 leg dining table"
+	        },
+	        {
+	          "sku": "sacfads1249",
+	          "item_name": "abc",
+	          "price": "15000",
+	          "color": "white",
+	          "description": "6 leg dining tale"
+	        }
+	      ]
+	    }
+    ]
+}

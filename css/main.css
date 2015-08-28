@@ -3,7 +3,7 @@
  * General
  **********************************************
  */
-html,body,.container,.main-body-container {
+html,body,.container {
 	height: 100%;
 }
 .container {
@@ -127,10 +127,10 @@ html,body,.container,.main-body-container {
 footer {
 	border-top: 1px solid #ccc;
 	text-align: right;
-	padding: 1em
+	padding: 1em;
 }
 .main-body-container {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 
@@ -158,7 +158,7 @@ footer {
 	margin: 5px;  
 }
 @media screen and (max-width: 546px) {
-	.grid-squares div {
+	.grid-squares .product-thumb-container {
 		width: 47.3333333%;
 	}
 }
