@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$("#siteTitle").html(json.website_name);
+	$("footer.site-title").html("&copy; "+json.website_name);
 	var passedItemId = GLOB_SITE.getUrlParameter("item_id");
 	for (var i = 0; i < json.category.length; i++){
 		for (var j = 0; j < json.category[i].items.length; j++){

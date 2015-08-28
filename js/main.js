@@ -12,6 +12,7 @@ $(document).ready(function(){
 	var productsListElements = "";
 	var productsGridElements = "";
 	$("#siteTitle").html(json.website_name);
+	$("footer.site-title").html("&copy; "+json.website_name);
 
 	for (var i = 0; i < json.category.length; i++){
 		productsListElements = productsListElements + '<li class="product-category"><a href="#">'+json.category[i].cat_name.toUpperCase()+'</a></li>';
