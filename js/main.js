@@ -1,16 +1,16 @@
 var GLOB_SITE = {};
 $(document).ready(function(){
-	// var json = null;
-	/*$.ajax({
-		url: "http://restfulexample.mybluemix.net/rest/items",
+	var json = null;
+	$.ajax({
+		url: "http://catalogapi-prisood.mybluemix.net/items",
 		method: "GET",
-		dataType: "html",
+		dataType: "json",
 		success: function(data) {
 			json = data;
 		}
-	});*/
-var productsListElements = "";
-var productsGridElements = "";
+	});
+	var productsListElements = "";
+	var productsGridElements = "";
 	// $("#siteTitle").html(json.website_name);
 	$("footer.site-title").html("&copy; "+json.website_name);
 
