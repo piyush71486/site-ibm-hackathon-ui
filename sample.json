@@ -1,80 +1,142 @@
-var json = { 
-	"website_name":"ABC",
-	"category": [
-	  	{ "cat_name": "Furniture",
-	      "items": [
-	        {
-	          "sku": "dfej1230000",
-	          "item_name": "chair",
-	          "price": "13000",
-	          "color": "black",
-	          "description": "4 leg dining table"
-	        },
-	        {
-	          "sku": "sacfads1249",
-	          "item_name": "table",
-	          "price": "15000",
-	          "color": "white",
-	          "description": "6 leg dining tale"
-	        }
-	      ]
-	    },
-	    {
-	      "cat_name": "Electronics",
-	      "items": [
-	        {
-	          "sku": "dfe412j1230000",
-	          "item_name": "mouse",
-	          "price": "13000",
-	          "color": "black",
-	          "description": "4 leg dining table"
-	        },
-	        {
-	          "sku": "sacfad12354s1249",
-	          "item_name": "ipad",
-	          "price": "15000",
-	          "color": "white",
-	          "description": "6 leg dining tale"
-	        }
-	      ]
-	    },
-	    {
-	      "cat_name": "Flowers",
-	      "items": [
-	        {
-	          "sku": "dfej1230007890",
-	          "item_name": "jasmine",
-	          "price": "13000",
-	          "color": "black",
-	          "description": "4 leg dining table"
-	        },
-	        {
-	          "sku": "sacf34ads1249",
-	          "item_name": "rose",
-	          "price": "15000",
-	          "color": "white",
-	          "description": "6 leg dining tale"
-	        }
-	      ]
-	    },
-	    {
-	      "cat_name": "Apparel",
-	      "items": [
-	        {
-	          "sku": "dfdfej1230000",
-	          "item_name": "footwear",
-	          "price": "13000",
-	          "color": "black",
-	          "description": "4 leg dining table"
-	        },
-	        {
-	          "sku": "sacfadkjs1249",
-	          "item_name": "shirt",
-	          "price": "15000",
-	          "color": "white",
-	          "description": "6 leg dining tale"
-	        }
-	      ]
-	    }
-    ]
+var json = {
+  "total_rows": 8,
+  "offset": 0,
+  "rows": [
+    {
+      "id": "25ca27682cf36c65fedb1a8bb5472411",
+      "key": "25ca27682cf36c65fedb1a8bb5472411",
+      "value": {
+        "rev": "1-6db548e6a6af8375c5b11aef4c22ff05"
+      },
+      "doc": {
+        "_id": "25ca27682cf36c65fedb1a8bb5472411",
+        "_rev": "1-6db548e6a6af8375c5b11aef4c22ff05",
+        "name": "Water Bottle",
+        "color": "orange, blue, yellow",
+        "quantity": 71,
+        "description": "3 different colors to match your personality!",
+        "usaDollarPrice": 19.99,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/0/07/Multi-use_water_bottle.JPG"
+      }
+    },
+    {
+      "id": "32b6423abb331bd907ec86978080af7b",
+      "key": "32b6423abb331bd907ec86978080af7b",
+      "value": {
+        "rev": "1-362fac46027c22e8061f8d3a909bb22e"
+      },
+      "doc": {
+        "_id": "32b6423abb331bd907ec86978080af7b",
+        "_rev": "1-362fac46027c22e8061f8d3a909bb22e",
+        "name": "War Room Table",
+        "color": "tan",
+        "quantity": 5,
+        "description": "A Beautiful War Room table, perfect for collaborative work spaces!",
+        "usaDollarPrice": 180,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/f/fd/Meeting_room,_table_and_paper_board.jpg"
+      }
+    },
+    {
+      "id": "526fd58f659ba94b10378cd1ac7eacb4",
+      "key": "526fd58f659ba94b10378cd1ac7eacb4",
+      "value": {
+        "rev": "1-cc6a25efddd4148e2997c545d8dbb7a1"
+      },
+      "doc": {
+        "_id": "526fd58f659ba94b10378cd1ac7eacb4",
+        "_rev": "1-cc6a25efddd4148e2997c545d8dbb7a1",
+        "name": "Monitor",
+        "color": "white",
+        "quantity": 24,
+        "description": "A computer monitor.",
+        "usaDollarPrice": 159.99,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/LG_L194WT-SF_LCD_monitor.jpg/1191px-LG_L194WT-SF_LCD_monitor.jpg"
+      }
+    },
+    {
+      "id": "57776272563068e295c8f3f0c6fa4842",
+      "key": "57776272563068e295c8f3f0c6fa4842",
+      "value": {
+        "rev": "1-c77716d29609d4a9e43c76c32b19bfc7"
+      },
+      "doc": {
+        "_id": "57776272563068e295c8f3f0c6fa4842",
+        "_rev": "1-c77716d29609d4a9e43c76c32b19bfc7",
+        "name": "IBM Coffee Beans",
+        "color": "brown",
+        "quantity": 155,
+        "description": "These have been fueling IBMers for ages!",
+        "usaDollarPrice": 15,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg"
+      }
+    },
+    {
+      "id": "70e4ac5d23b51a8f916b04659b7c165c",
+      "key": "70e4ac5d23b51a8f916b04659b7c165c",
+      "value": {
+        "rev": "1-f4d622d5806eaec1dd00a79c0a19a64f"
+      },
+      "doc": {
+        "_id": "70e4ac5d23b51a8f916b04659b7c165c",
+        "_rev": "1-f4d622d5806eaec1dd00a79c0a19a64f",
+        "name": "Travel Backpack",
+        "color": "green",
+        "quantity": 64,
+        "description": "This backpack is perfect for traveling.",
+        "usaDollarPrice": 49.99,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rucksack_Schweizer_Armee_1960er_a.jpg/828px-Rucksack_Schweizer_Armee_1960er_a.jpg"
+      }
+    },
+    {
+      "id": "838470d049cd296f503cb20a04e207c3",
+      "key": "838470d049cd296f503cb20a04e207c3",
+      "value": {
+        "rev": "1-09f57226fbadc05be23e2962895d8eee"
+      },
+      "doc": {
+        "_id": "838470d049cd296f503cb20a04e207c3",
+        "_rev": "1-09f57226fbadc05be23e2962895d8eee",
+        "name": "Foosball Table",
+        "color": "white",
+        "quantity": 53,
+        "description": "Wooden table, some assembly required.",
+        "usaDollarPrice": 125.99,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/6/62/FAS_Foosball_table_1.jpg"
+      }
+    },
+    {
+      "id": "9a5c53c81063c66c9fd30ed68bd2eecc",
+      "key": "9a5c53c81063c66c9fd30ed68bd2eecc",
+      "value": {
+        "rev": "1-ee1268c3b44a8329c60af2d28b932903"
+      },
+      "doc": {
+        "_id": "9a5c53c81063c66c9fd30ed68bd2eecc",
+        "_rev": "1-ee1268c3b44a8329c60af2d28b932903",
+        "name": "Ping pong balls",
+        "color": "white",
+        "quantity": 97,
+        "description": "3 star ping pong balls, regulation size.",
+        "usaDollarPrice": 12,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/f/fd/Tischtennisball-weiss-004.jpg"
+      }
+    },
+    {
+      "id": "a2790362b015941121d2433f3b8219de",
+      "key": "a2790362b015941121d2433f3b8219de",
+      "value": {
+        "rev": "1-78fec1baf45847c101f5049f7eb3b2bb"
+      },
+      "doc": {
+        "_id": "a2790362b015941121d2433f3b8219de",
+        "_rev": "1-78fec1baf45847c101f5049f7eb3b2bb",
+        "name": "Ping pong table",
+        "color": "green",
+        "quantity": 7,
+        "description": "A very sturdy ping pong table. Includes 2 paddles and a regulation sized net.",
+        "usaDollarPrice": 199.99,
+        "imgsrc": "http://upload.wikimedia.org/wikipedia/commons/0/0c/Table_tennis_table_007.JPG"
+      }
+    }
+  ]
 }

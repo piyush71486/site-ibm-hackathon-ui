@@ -38,4 +38,6 @@
 .product-desc {
 	padding: 1em;
 	text-align: justify;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
 }
