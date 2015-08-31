@@ -10,7 +10,7 @@ $(document).ready(function(){
 			var productDesc = json.rows[i].doc.description;
 			if (passedItemId === itemId) {
 				$("#productTitle").html(itemName.toUpperCase());
-				$("#productPrice").html(itemPrice);
+				$("#productPrice").html("$ "+itemPrice);
 				$("#productDesc").html(productDesc);
 			}
 		// }

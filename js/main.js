@@ -20,7 +20,7 @@ var productsGridElements = "";
 			var itemName = json.rows[i].doc.name;
 			var itemId = json.rows[i].doc["_id"];
 			var itemPrice = json.rows[i].doc.usaDollarPrice;
-			productsGridElements = productsGridElements + '<div class="col-md-4 col-xs-6 product-thumb-container"><a href="details.html?item_id='+itemId+'"><img src="images/label15.png" alt="Product" class="product-image"><div class="product-name">'+itemName+'</div><div class="product-name">'+itemPrice+'</div></a></div>';
+			productsGridElements = productsGridElements + '<div class="col-md-4 col-xs-6 product-thumb-container"><a href="details.html?item_id='+itemId+'"><img src="images/label15.png" alt="Product" class="product-image"><div class="product-name">'+itemName+'</div><div class="product-name">$ '+itemPrice+'</div></a></div>';
 		// }
 	}
 	$("#productsGrid").html(productsGridElements);
@@ -34,7 +34,7 @@ var productsGridElements = "";
 					var itemName = json.rows[i].doc.name;
 					var itemId = json.rows[i].doc["_id"];
 					var itemPrice = json.rows[i].doc.usaDollarPrice;
-					productsGridElements = productsGridElements + '<div class="col-md-4 col-xs-6 product-thumb-container"><a href="details.html?item_id='+itemId+'"><img src="images/label15.png" alt="Product" class="product-image"><div class="product-name">'+itemName+'</div><div class="product-name">'+itemPrice+'</div></a></div>';
+					productsGridElements = productsGridElements + '<div class="col-md-4 col-xs-6 product-thumb-container"><a href="details.html?item_id='+itemId+'"><img src="images/label15.png" alt="Product" class="product-image"><div class="product-name">'+itemName+'</div><div class="product-name">$ '+itemPrice+'</div></a></div>';
 				}
 			}
 		}
